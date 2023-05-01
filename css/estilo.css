@@ -1,0 +1,478 @@
+/* ALBERTO PUCHEU ENGENHARIA - 2023 */
+/* CSS ZIMBA DESIGN @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+body{zoom: 85%}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */  /* TOPO */ 
+
+
+.topo{
+	background-color: #444;
+	padding: 5px 0;
+/*	position: fixed;
+    width: 100%;
+    z-index: 100;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(30, 30, 30, 0.5);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(30, 30, 30, 0.5);
+    box-shadow: 1px 1px 10px 0px rgba(30, 30, 30, 0.5); */
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 3px 0;
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+	color: #D14E61;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+	color: #fff;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #D14E61;
+}
+
+
+
+/* SOLICITAR ORÇAMENTO */ /* SOLICITAR ORÇAMENTO */ /* SOLICITAR ORÇAMENTO */ 
+
+.solicitar-orcamento{
+	padding: 40px 0 30px 0;
+	background-color: #CE4552;
+	color: #fff;
+}
+
+.solicitar-orcamento .left{
+	text-align: right;
+}
+
+.solicitar-orcamento .right{
+	text-align: center;
+}
+
+.solicitar-orcamento .left h4{
+	font-weight: bold;
+}
+
+.solicitar-orcamento .left h5{
+	font-style: italic;
+}
+
+.solicitar-orcamento .right a{
+	text-decoration: none;
+}
+
+.solicitar-orcamento .right h4{
+	background-color: #fff;
+	color: #CE4552;
+	font-weight: bold;
+	padding: 17px 0 13px 0;
+	border-radius: 55px;
+
+		max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.solicitar-orcamento .right h4:hover{
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.solicitar-orcamento .right img{
+	margin: 0 7px 0 0;
+}
+
+
+
+/* PORTFOLIO-COMECO */ /* PORTFOLIO-COMECO */ /* PORTFOLIO-COMECO */ 
+
+.portfolio-comeco{
+	background-color: #C2343D;
+	color: #fff;
+	padding: 65px;
+}
+
+.portfolio-comeco h1{
+	font-weight: bold;
+}
+
+.portfolio-comeco h3{
+	font-weight: bold;
+}
+
+.portfolio-comeco h4{
+	margin: 0 0 65px 0;
+}
+
+.portfolio-comeco hr{
+	margin: 55px 0;
+	border-color: #df5461;
+}
+
+.portfolio-comeco img{
+	cursor: pointer;
+	-webkit-box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.2);
+	-moz-box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.2);
+	box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.2);
+}
+
+
+
+/* LISTA-SERVICOS */ /* LISTA-SERVICOS */ /* LISTA-SERVICOS */
+
+.lista-servicos{
+	background-color: #EDEEF0;
+	color: #444;
+	padding: 65px;
+} 
+
+.lista-servicos h1{
+	font-weight: bold;
+}
+
+.lista-servicos h4{
+	margin: 0 0 65px 0;
+}
+
+.lista-servicos .servicos-descritos h5{
+	border-bottom: 1px solid #C2343D;
+	margin: 0 0 21px 0;
+	padding: 0 0 12px 0;
+}
+
+.lista-servicos .servicos-descritos span{
+	color: #C2343D;
+}
+
+
+
+/* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */
+
+.sobre{
+	padding: 120px 0 88px 0;
+}
+
+.sobre h4{
+	color: #444;
+	font-size: 23px;
+	font-weight: normal;
+	margin: 0 0 0 33px;
+}
+
+
+
+/* FOTOS-SERVICOS */ /* FOTOS-SERVICOS */ /* FOTOS-SERVICOS */
+
+.fotos-servicos{
+	background-color: #EDEEF0;
+	color: #444;
+	padding: 75px 0 0 0;
+}
+
+.fotos-servicos h1{
+	font-weight: bold;
+}
+
+.fotos-servicos h4{
+	margin: 0 0 65px 0;
+}
+
+.fotos-servicos .col-lg-3{
+	margin: 0;
+	padding: 0;
+}
+
+.fotos-servicos img{
+	cursor: pointer;
+}
+
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER *//* FOOTER */ /* FOOTER */
+
+.footer{
+	background-color: #444;
+	color: #fff;
+	padding: 120px;
+}
+
+.footer h4{
+	font-weight: bold;
+}
+
+.footer .infos-contato h4{
+	margin: 0 0 7px 23px;
+}
+
+.footer .infos-contato h5{
+	margin: 0 0 0 23px;
+}
+
+.footer .email{
+	font-size: 18px;
+}
+
+.footer img{
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.footer img:hover{
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.rodape-final{
+	background-color: #333;
+	color: #fff;
+	padding: 8px 0 4px 0;
+}
+
+.rodape-final a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.rodape-final a:hover{
+	color: #D14E61;
+}
+
+.rodape-final h5{
+	font-weight: normal;
+}
+
+.rodape-final br{
+	display: none;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+@media(max-width: 1200px){
+
+	.portfolio-comeco h5{
+		font-size: 1.1rem;
+	}
+
+	.rodape-final h5{
+		font-size: 1.1rem;
+	}
+
+	body{zoom: 80%}
+
+}
+
+
+@media(max-width: 992px){
+
+	.solicitar-orcamento{
+		text-align: center;
+	}
+
+	.solicitar-orcamento .left{
+		text-align: center;
+	}
+
+	.solicitar-orcamento .right h4{
+		margin: 12px 0 0 0;
+	}
+
+	.solicitar-orcamento{
+		padding: 40px 0 50px 0;
+	}
+
+	.portfolio-comeco{
+		text-align: center;
+	}
+
+	.portfolio-comeco .col-lg-6 img{
+		margin: 0 0 25px 0;
+	}
+
+	.portfolio-comeco h3{
+		margin: 35px 0 0 0;
+	}
+
+	.sobre img{
+		padding: 0 0 55px 0;
+	}
+
+	.fotos-servicos{
+		text-align: center;
+		padding: 75px 0;
+	}
+
+	.fotos-servicos img{
+		padding: 17px 0;
+	}
+
+	.footer{
+		text-align: center;
+		padding: 80px 0 110px 0;
+	}
+
+	.footer .row .col-lg-4{
+		padding: 55px 0 0 0;
+	}
+
+	.rodape-final{
+		text-align: center;
+	}
+
+	.rodape-final br{
+		display: block;
+	}
+
+}
+
+
+@media(max-width: 768px){
+
+	.sobre img{
+		zoom: 85%;
+	}
+
+}
+
+
+@media(max-width: 496px){
+
+	h1{
+		font-size: 2.2rem;
+	}
+
+	h4{
+		font-size: 1.3rem;
+	}
+
+	.portfolio-comeco h5{
+		font-size: 1.2rem;
+	}
+
+
+}
+
+
+@media(max-width: 450px){
+
+	.sobre img {
+	    zoom: 80%;
+	}
+
+	.portfolio-comeco h4 {
+    	margin: 0 0 44px 0;
+	}
+
+	.fotos-servicos img {
+    	padding: 13px 5px;
+	}
+
+}
+
+
+@media(max-width: 400px){
+
+	h1{
+		font-size: 2.1rem;
+	}
+
+	h4{
+		font-size: 1.1rem;
+	}
+
+	.sobre img{
+		width: 80%;
+	}
+
+	.sobre {
+    	padding: 88px 0;
+	}
+
+
+}
+
+
+@media(max-width: 350px){
+
+	h1{
+		font-size: 1.9rem;
+	}
+
+	.solicitar-orcamento h5{
+		font-size: 1rem;
+	}
+
+	.lista-servicos .servicos-descritos h5 {
+	    border-bottom: 1px solid #C2343D;
+	    margin: 0 0 18px 0;
+	    padding: 0 0 8px 0;
+	}
+
+	.sobre h4{
+		font-size: 21px;
+	}
+
+	.footer{
+    	text-align: center;
+    	padding: 50px 0 90px 0;
+	}
+
+	.footer img{
+		zoom: 85%;
+	}
+
+}
